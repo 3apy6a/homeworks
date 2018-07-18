@@ -9,11 +9,11 @@ puts 'WHO IS THERE?'
 puts 'GRANDSON? IT IS YOU?'
 talking = ''
 while talking != 'BYE'
-    talking = gets.chomp
-    if talking == talking.upcase
-        puts "NO, NOT SINCE #{rand(1938..1950)}"
-    else
-        puts "HUH?! SPEAK UP, SONNY!"
-    end
+  talking = gets.chomp
+  if talking == talking.upcase
+    puts "NO, NOT SINCE #{rand(1938..1950)}"
+  else
+    puts 'HUH?! SPEAK UP, SONNY!'
+  end
 end
 puts 'BYE GRANDSANY, COME AGAIN'
