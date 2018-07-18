@@ -7,5 +7,4 @@ HOUR = 60 # number of minute in a hour
 MIN = 60 # number of second in a minute
 V_DAYS = OLD / 4 # a leap year
 puts 'The answer is:'
-puts ((YEAR * OLD) + V_DAYS) * DAY * HOUR * MIN
-    
+puts((YEAR * OLD) + V_DAYS) * DAY * HOUR * MIN
