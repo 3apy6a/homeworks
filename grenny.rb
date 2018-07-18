@@ -13,7 +13,7 @@ while talking != 'BYE'
     if talking == talking.upcase
         puts "NO, NOT SINCE #{rand(1938..1950)}"
     else
-        puts "HUH?! SPEAK UP, SONNY!"    
+        puts "HUH?! SPEAK UP, SONNY!"
     end
 end
 puts 'BYE GRANDSANY, COME AGAIN'
